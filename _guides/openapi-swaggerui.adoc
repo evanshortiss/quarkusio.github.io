@@ -258,6 +258,15 @@ quarkus.smallrye-openapi.path=/swagger
 ----
 ====
 
+[NOTE]
+====
+You can request the OpenAPI specification as JSON using the `format` querystring parameter. For example:
+[source, properties]
+----
+/openapi?format=json
+----
+====
+
 Hit `CTRL+C` to stop the application.
 
 == Providing Application Level OpenAPI Annotations
